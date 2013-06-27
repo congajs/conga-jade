@@ -1,0 +1,10 @@
+parameters:
+    jade.handler.constructor: conga-jade:jade
+
+services:
+
+    jade.handler:
+        constructor: "%jade.handler.constructor%"
+        arguments: []
+        tags:
+            - { name: app.view.configuration, method: onConfigureViewEngine }

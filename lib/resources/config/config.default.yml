@@ -1,0 +1,8 @@
+jade:
+
+    options:
+        self: false
+        locals: 
+        debug: true
+        compileDebug: true
+        pretty: true
